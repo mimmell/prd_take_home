@@ -1,0 +1,10 @@
+{
+  "source": "../data/test_docs",
+  "schema": [
+    {"name": "authors", "type": "list[str]", "hint": "Authors listed on title page"},
+    {"name": "publish_date", "type": "date", "hint": "Publication date"},
+    {"name": "abstract_summary", "type": "str", "hint": "Abstract text"},
+    {"name": "code_snippets", "type": "list[str]", "hint": "Code blocks"}
+  ],
+  "sink": "../data/output.jsonl"
+}
